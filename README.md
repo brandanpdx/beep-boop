@@ -10,7 +10,7 @@ _This is the Epicodus independent end-of-week assignment for Friday, January 24,
 
 | Specification                                                                                                          	| Input 	| Output                                                              	|
 |------------------------------------------------------------------------------------------------------------------------	|-------	|---------------------------------------------------------------------	|
-| Program does not recognize non-numeric characters, and returns an error message                                        	| A     	| "Please input a number."                                            	|
+| Program does not recognize non-numeric characters, and returns an error message                                        	| A     	| "Please enter numbers only!"                                           	|
 | User inputs a number and the program returns a range of numbers from 0 up to the user's inputted number                	| 5     	| ["0", "1", "2", "3", "4", "5"]                                      	|
 | For any input that contains the number 3: the number 3 is replaced with "I'm sorry, Dave.  I'm afraid I can't do that." 	| 3     	| ["0", "1", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4"] 	|
 | For any input that contains the number 2: the number 2 is replaced with "Boop"                                         	| 2     	| ["0", "1", "Boop", "3"]                                             	|
