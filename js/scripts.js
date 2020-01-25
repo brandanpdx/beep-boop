@@ -9,7 +9,6 @@ $(document).ready(function(){
     $(".resultspane").show();
     $("#result").append("<p>"+beepboop(userNumber)+"</p>");
   })
-
 // Back-end logic:
 function beepboop(num) {
   //Create array that stops at user's input
