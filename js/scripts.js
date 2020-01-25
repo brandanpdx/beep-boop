@@ -7,12 +7,8 @@ $(document).ready(function(){
       alert("Please enter numbers only!")
     }
     $(".resultspane").show();
-    $("#result").append("<p>" + beepboop(userNumber) + "</p>");
+    $("#result").append("<p>"+beepboop(userNumber)+"</p>");
   })
-  $("button.btn.btn-danger").click(function(){
-    $("span#result").remove();
-    $(".resultspane").hide();
-  });
 
 // Back-end logic:
 function beepboop(num) {
