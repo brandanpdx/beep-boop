@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-
-<head>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Beep Boop!</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>Beep Boop!</h1>
-      <h4>Enter a number below and get a robotic surprise!</h4>
-    </div>
-    <div class="numberinputform">
-      <form>
-        <div class="form-group">
-          <input id="numberinputfield" class="form-control" placeholder="Enter your number here!" type="text">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Beep Boop!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Beep Boop!</h1>
+        <h4>Enter a number below and get a robotic surprise!</h4>
+      </div>
+      <div class="numberinputform">
+        <form>
+          <div class="form-group">
+            <input id="numberinputfield" class="form-control" placeholder="Enter your number here!" type="text">
+          </div>
+          <button class="btn btn-success" type="submit">Submit!</button>
+        </form>
+        <div class=resultspane>
+          <h3>Results:</h3>
+          <span id="result"></span>
+          <h3>Try another number!</h3>
+          <button class="btn btn-danger" onClick="window.location.reload();">Try another number!</button>
         </div>
-        <button class="btn btn-success" type="submit">Submit!</button>
-      </form>
-      <ul id="result"></ul>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

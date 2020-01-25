@@ -13,6 +13,10 @@ button {
   margin-top: 10px;
 }
 
-#result {
-  margin-top: 10px;
+.resultspane {
+  display: none;
+}
+
+.reversebutton {
+  display: none;
 }
