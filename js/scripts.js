@@ -7,7 +7,11 @@ $(document).ready(function(){
       alert("Please enter numbers only!")
     }
     $(".resultspane").show();
-    $("#result").append("<p>"+beepboop(userNumber)+"</p>");
+    var showresults = beepboop(userNumber)
+    showresults.forEach(function(showresult) {
+    $("#result").append("<li>" + showresult + "</li>");
+    })
+
   })
 // Back-end logic:
 function beepboop(num) {
@@ -27,7 +31,6 @@ function beepboop(num) {
       arr[i] = "BEEP!";
     }
   }
-  var finalString = arr.join(", "); 
-  return finalString;
+  return arr;
   }
 })
