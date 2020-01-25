@@ -11,7 +11,7 @@ $(document).ready(function(){
   })
 // Back-end logic:
 function beepboop(num) {
-  //Create array that stops at user's input
+  //Create empty array and a loop that stops at user's input
   var arr = [];
   for (var index = 0; index <= num; index ++) {
     arr.push(index);
